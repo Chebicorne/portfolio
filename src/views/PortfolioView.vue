@@ -14,6 +14,7 @@
         </div>
       </div>
     </section>
+    <font-awesome-icon icon="fa-solid fa-user-secret" />
   </div>
 </template>
 
@@ -29,7 +30,7 @@ export default {
           description:
             "Création de l'application web Vinoways Territoire. Une application de découverte de l'univers viticole par région.",
           img: "vinoways.png",
-          tags: ["HTML/CSS", "Apostrophe CMS", "VueJs", "Javascript"],
+          tags: ["HTML/CSS", "Apostrophe CMS", "VueJs"],
           link: "",
         },
         {
@@ -69,13 +70,22 @@ export default {
           link: "https://gitelespittos.fr/",
         },
         {
+          title: "App Météo",
+          date: "Novembre, 2021",
+          description:
+            "Réalisation d'une app météo par ville, qui dit la température et l'état du ciel.",
+          img: "meteo.jpg",
+          tags: ["HTML/CSS", "Tailwind CSS", "VueJs"],
+          link: "lennyroland.com/weather-app",
+        },
+        {
           title: "Covid-Tracker",
-          date: "Mars, 2021",
+          date: "Janvier, 2022",
           description:
             "Réalisation d'un tracker par pays pour les données du Covid-19.",
           img: "covidtracker.png",
           tags: ["HTML/CSS", "Tailwind CSS", "VueJs"],
-          link: "/covid-tracker",
+          link: "lennyroland.com/covid-app",
         },
       ],
     };
